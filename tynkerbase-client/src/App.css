@@ -1,0 +1,30 @@
+* {
+	font-family: monospace;
+}
+
+html, body, #root {
+	display: flex;
+	flex-direction: row;
+    height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+html p {
+	color: white;
+}
+
+.global-container {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+	flex-grow: 1;
+}
+
+.hidden {
+	display: none;
+}
